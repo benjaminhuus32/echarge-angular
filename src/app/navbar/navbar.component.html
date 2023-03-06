@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-image: linear-gradient(to right, #380036 , #0CBABA);">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="font-family: Azontix;">ECHARGE</a>
+
+      <button *ngIf="loggedIn()" class="btn btn-outline-light" (click)="logout()">logout</button>
+      <!-- <p>Logged in as {{uid}}</p> -->
+      <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-light" (click)="loggedIn()" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- <img src="../../assets/jess_logo.png" width="120"> -->

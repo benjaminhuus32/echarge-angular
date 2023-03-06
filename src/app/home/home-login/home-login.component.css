@@ -1,0 +1,27 @@
+@font-face { font-family: Azontix; src: url('../../../assets/Azonix-1VB0.otf'); }
+
+:host {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin: 20px;
+}
+
+mat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width:fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-family: Azontix;
+    margin-top: 1em;
+}
